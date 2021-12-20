@@ -10,11 +10,11 @@ SET(PROJECT_NAME "CATS")
 
 project(${PROJECT_NAME})
 # SET PATHS #
-SET(CATS_DESTINATION "/home/dmihaylov/Apps/CATS")#where to install CATS. Folder must exist.
-SET(ROOT_PATH "/home/dmihaylov/Apps/root-6.14.00/obj")#path to ROOT
-SET(GSL_INCLUDE "/usr/include/gsl")#where are all GSL related .h files
-SET(GSL_LIB "/usr/lib")#where are the GSL .a and .so files
-SET(CATS_FOLDER "/home/dmihaylov/Dudek_Ubuntu/DLM_GitHub")#where is the CATS main folder located
+SET(CATS_DESTINATION "/home/lvermunt/FemtoAnalysis/CATS")#where to install CATS. Folder must exist.
+SET(ROOT_PATH "/home/lvermunt/simulation/root_install/")#path to ROOT
+SET(GSL_INCLUDE "/cvmfs/sft.cern.ch/lcg/releases/GSL/2.6-ecdfc/x86_64-ubuntu1804-gcc7-opt/include/")#where are all GSL related .h files
+SET(GSL_LIB "/cvmfs/sft.cern.ch/lcg/releases/GSL/2.6-ecdfc/x86_64-ubuntu1804-gcc7-opt/lib")#where are the GSL .a and .so files
+SET(CATS_FOLDER "/home/lvermunt/FemtoAnalysis/DLM")#where is the CATS main folder located
 # DO NOT CHANGE THE REST #
 
 SET(VERSION_MAJOR 3)

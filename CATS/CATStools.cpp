@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "gsl_sf_gamma.h"
+#include "gsl/gsl_sf_gamma.h"
 
 #include "DLM_CppTools.h"
 #include "CATSconstants.h"

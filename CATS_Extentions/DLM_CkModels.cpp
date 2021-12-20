@@ -1,6 +1,6 @@
 
 #include "DLM_CkModels.h"
-#include "gsl_sf_dawson.h"
+#include "gsl/gsl_sf_dawson.h"
 #include "CATSconstants.h"
 #include "CATStools.h"
 #include "DLM_Integration.h"
